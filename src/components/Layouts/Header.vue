@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col xl:px-36 lg:px-36 md:px-20 sm:px-5 bg-gray-800 fixed top-0 left-0 right-0">
+  <div class="flex flex-col xl:px-36 lg:px-36 md:px-20 sm:px-5 black-color fixed top-0 left-0 right-0">
     <nav class="flex flex-col justify-between">
 
       <div class="hidden max-sm:block w-full flex-auto">
@@ -16,7 +16,7 @@
       </div>
 
       <div :class="`w-full max-sm:relative`">
-        <div :class="`${viewMenu} sm:block sm:flex max-sm:absolute flex justify-between text-md gap-8 items-center max-sm:gap-0 max-sm:text-sm max-sm:flex-col max-sm:h-52 w-full top-0 left-0 py-5 max-sm:p-2 max-sm:bg-gray-900 max-sm:bg-opacity-85`">
+        <div :class="`${viewMenu} sm:block sm:flex max-sm:absolute flex justify-between text-md gap-8 items-center max-sm:gap-0 max-sm:text-sm max-sm:flex-col max-sm:h-52 w-full top-0 left-0 py-2 max-sm:p-2 max-sm:bg-gray-900 max-sm:bg-opacity-85`">
           <a href="#home" class="hover:text-green-600 max-sm:text-center">Home</a>
           <a href="#about" class="hover:text-green-600 max-sm:text-center">About Me</a>
           <a href="#experience" class="hover:text-green-600 max-sm:text-center">Experiences</a>
@@ -40,3 +40,9 @@
   })
 
 </script>
+
+<style>
+  .black-color {
+    background: #181818;
+  }
+</style>
