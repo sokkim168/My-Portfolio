@@ -1,7 +1,7 @@
 <template>
       <div class="flex flex-col gap-2 w-full mt-16 max-sm:mt-10">
-        <div class="flex flex-row backgound-cover" id="home">
-          <div class="flex w-full bg-gradient-to-r from-gray-900 to-100%">
+        <div class="flex flex-row backgound-cover "  id="home">
+          <div class="flex w-full bg-gradient-to-r from-gray-900 ">
             <div class="flex w-1/2 rounded-2x px-14 max-sm:px-5 items-center max-sm:justify-center">
               <div class="w-auto max-sm:mt-10 max-sm:pl-10 max-md:mt-12 max-md:mr-12 max-sm:mr-0 max-sm:mt-15 items-end justify-items-end justify-end">
                 <h1 class="flex text-7xl text-white max-sm:text-5xl">HELLO, I AM</h1>
@@ -17,7 +17,7 @@
           </div>
         </div>
 
-        <div class="flex flex-row py-3 px-14 max-sm:px-5" id="about">
+        <div class="flex flex-row pt-10 px-14 max-sm:px-5" id="about">
           <div class="flex flex-col w-full">
             <h1 class="flex flex-row w-full justify-center text-white text-xl text-bold py-2 my-3">About Me</h1>
             <div class="flex flex-row max-sm:flex-col w-full">
@@ -79,7 +79,7 @@
           </div>
         </div>
 
-        <div class="flex flex-row py-3 px-14 max-sm:px-5" id="experience">
+        <div class="flex flex-row py-3 pt-10 px-14 max-sm:px-5" id="experience">
           <div class="flex flex-col w-full ">
             <h1 class="flex flex-row w-full justify-center text-white text-xl text-bold py-2 my-3">Works Experiences</h1>
             <div class="flex flex-row w-full">
@@ -193,14 +193,14 @@
           </div>
         </div>
 
-        <div class="flex flex-row py-3 px-14 max-sm:px-5" id="skill">
+        <div class="flex flex-row py-3 pt-10 px-14 max-sm:px-5" id="skill">
           <div class="flex flex-col w-full ">
-            <h1 class="flex flex-row w-full justify-center text-white text-xl text-bold  py-2 my-3">Skills</h1>
+            <h1 class="flex flex-row w-full justify-center text-white text-xl text-bold  py-2 my-3" >Skills</h1>
             <div class="flex flex-col w-full ">
 
               <div class="flex flex-col">
                 <div class="flex flex-col w-full">
-                  <h1 class="flex flex-row w-full items-center text-white text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Frontend Development</h1>
+                  <h1 class="flex flex-row w-full items-center text-md noto-serif-900 py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Frontend Development</h1>
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
@@ -229,7 +229,7 @@
 
               <div class="flex flex-col">
                 <div class="flex flex-col w-full">
-                  <h1 class="flex flex-row w-full items-center text-white text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Backend Development</h1>
+                  <h1 class="flex flex-row w-full items-center noto-serif-900 text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Backend Development</h1>
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
@@ -256,7 +256,7 @@
 
               <div class="flex flex-col">
                 <div class="flex flex-col w-full">
-                  <h1 class="flex flex-row w-full items-center text-white text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Databases</h1>
+                  <h1 class="flex flex-row w-full items-center noto-serif-900 text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Databases</h1>
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
@@ -277,7 +277,7 @@
 
               <div class="flex flex-col">
                 <div class="flex flex-col w-full">
-                  <h1 class="flex flex-row w-full items-center text-white text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Version Control</h1>
+                  <h1 class="flex flex-row w-full items-center noto-serif-900 text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Version Control</h1>
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
@@ -294,7 +294,7 @@
 
               <div class="flex flex-col">
                 <div class="flex flex-col w-full">
-                  <h1 class="flex flex-row w-full items-center text-white text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Development Tools</h1>
+                  <h1 class="flex flex-row w-full items-center noto-serif-900 text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Development Tools</h1>
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
@@ -314,7 +314,7 @@
 
               <div class="flex flex-col">
                 <div class="flex flex-col w-full">
-                  <h1 class="flex flex-row w-full items-center text-white text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Development and DevOps</h1>
+                  <h1 class="flex flex-row w-full items-center noto-serif-900 text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Development and DevOps</h1>
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
@@ -338,7 +338,7 @@
 
               <div class="flex flex-col">
                 <div class="flex flex-col w-full">
-                  <h1 class="flex flex-row w-full items-center text-white text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Soft Skills</h1>
+                  <h1 class="flex flex-row w-full items-center noto-serif-900 text-md text-bold py-2"><font-awesome-icon :icon="['fas', 'hand-point-right']" /> &nbsp;&nbsp; Soft Skills</h1>
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
@@ -380,26 +380,24 @@
           </div>
         </div>
 
-        <div class="flex flex-row py-3 px-14 max-sm:px-5" id="contact">
+        <div class="flex flex-row py-3 pt-10 px-14 max-sm:px-5" id="contact">
           <div class="flex flex-col w-full ">
             <h1 class="flex flex-row w-full justify-center text-white text-xl text-bold py-2 my-3">Contact Me</h1>
             <div class="flex flex-nowrap py-5">
               <div class="flex px-5 gap-5 w-full max-sm:flex-col">
 
                 <div class="flex w-full justify-start items-center   noto-sans-300">
-                  <div class="flex"><font-awesome-icon class="fa-xl" :icon="['fas', 'map-location-dot']" />&nbsp;&nbsp;:&nbsp;&nbsp;<p>#No.26A, St.2011, Krang Thnong commune, SenSok district, Phnom Penh capital, Cambodia</p></div>
+                  <div class="flex"><font-awesome-icon class="fa-xl" :icon="['fas', 'map-location-dot']" />&nbsp;&nbsp;&nbsp;<p>#No.26A, St.2011, Krang Thnong commune, SenSok district, Phnom Penh capital, Cambodia</p></div>
                 </div>
 
                 <div class="flex w-full items-center justify-center max-sm:justify-start noto-sans-300">
                   <div class="flex-col">
                     <div class="flex flex-row items-center gap-2">
                       <font-awesome-icon class="fa-lg" :icon="['fas', 'phone']" />
-                      <p>:</p>
                       <p class="text-lg">+855 98 429 694</p>
                     </div>
                     <div class="flex flex-row items-center gap-2">
                       <font-awesome-icon class="fa-lg" :icon="['fas', 'envelope']" />
-                      <p>:</p>
                       <p class="text-lg">mrkimsokss7@gmail.com</p>
                     </div>
                     </div>
@@ -407,15 +405,15 @@
 
                 <div class="flex w-full justify-end items-center max-sm:justify-start gap-4 noto-sans-300">
                   <a class="flex flex-col" target="_blank" href="//www.linkedin.com/in/sokkim-roth-466795218">
-                    <font-awesome-icon class="fa-2xl" title="LinkedIn" :icon="['fab', 'linkedin']" />
+                    <font-awesome-icon class="fa-xl" title="LinkedIn" :icon="['fab', 'linkedin']" />
                     <p class="text-2xs py-2">LinkedIn</p>
                   </a>
                   <a class="flex flex-col" target="_blank" href="//www.linkedin.com/in/sokkim-roth-466795218">
-                    <font-awesome-icon class="fa-2xl" title="WhatApp" :icon="['fab', 'square-whatsapp']" />
+                    <font-awesome-icon class="fa-xl" title="WhatApp" :icon="['fab', 'square-whatsapp']" />
                     <p class="text-2xs py-2">WhatApp</p>
                   </a>
                   <a class="flex flex-col" target="_blank" href="//https://x.com/SokkimRoth">
-                    <font-awesome-icon class="fa-2xl" title="X" :icon="['fab', 'x-twitter']" />
+                    <font-awesome-icon class="fa-xl" title="X" :icon="['fab', 'x-twitter']" />
                     <p class="text-2xs py-2">X-Twitter</p>
                   </a>
                 </div>
