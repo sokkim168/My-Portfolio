@@ -1,6 +1,7 @@
 import './assets/main.css'
-import { createApp } from 'vue'
 import App from './App.vue'
+
+import { createApp } from 'vue'
 /* import the fontawesome core */
 import { library, config } from '@fortawesome/fontawesome-svg-core'
 /* import font awesome icon component */
