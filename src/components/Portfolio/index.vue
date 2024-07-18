@@ -409,16 +409,13 @@
       </div>
 </template>
 
-<script setup>
-import { ref  } from 'vue'
-
-
-
+<script setup lang="ts">
   var getYear = new Date().getFullYear();
   var getCurrentTime = new Date();
   var workStart = new Date('11-01-2022');
-  const myAge =  parseInt(getYear-2000);
-  const calculatePeriod = (startDate, endDate) => {
+  const myAge = (getYear - 2000);
+
+  const calculatePeriod = (startDate :any, endDate :any) : string => {
     const seconds = Math.floor((endDate - startDate) / 1000);
     const minutes = Math.floor(seconds / 60);
     const hours = Math.floor(minutes / 60);
