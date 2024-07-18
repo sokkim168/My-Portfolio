@@ -1,8 +1,13 @@
+<script setup lang="ts">
+  import ComponentHeader from './Layouts/Header.vue'
+  import Footer from './Layouts/Footer.vue'
+</script>
+
 <template>
   <div class="flex flex-col h-screen">
     <main class="flex-auto">
       <div class="relative">
-        <Header></Header>
+        <ComponentHeader></ComponentHeader>
         <slot></slot>
       </div>
     </main>
@@ -10,11 +15,3 @@
   </div>
 </template>
 
-<script setup>
-import Header from '@/components/Layouts/Header.vue'
-import Footer from '@/components/Layouts/Footer.vue'
-</script>
-
-<style lang="scss" scoped>
-
-</style>
