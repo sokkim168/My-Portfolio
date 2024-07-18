@@ -11,6 +11,3 @@ import Portfolio from './components/Portfolio/index.vue'
   </div>
 </template>
 
-<style scoped>
-
-</style>
