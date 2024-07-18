@@ -5,10 +5,10 @@
 
 <template>
   <div class="flex flex-col h-screen">
-    <header>&nbsp;</header>
+
     <main class="flex-auto">
       <div class="relative">
-        <ComponentHeader></ComponentHeader>
+        <header><ComponentHeader></ComponentHeader></header>
         <slot></slot>
       </div>
     </main>
