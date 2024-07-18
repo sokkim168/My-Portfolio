@@ -37,7 +37,7 @@
 
               <div class="flex flex-1 max-sm:mt-12">
                 <div class="border-l-2 border-gray-700 w-full">
-                  <div class="flex flex-row pt-5 xxx-xxx">
+                  <div class="flex flex-row pt-5 ">
                     <div class="flex absolute -ml-1.5 bg-green-800 w-3 h-3 rounded-full"></div>
                     <div class="flex justify-between w-full -mt-1 ml-5">
                       <div class="text-white flex w-44 underline">
@@ -49,7 +49,7 @@
                     </div>
                   </div>
 
-                  <div class="flex flex-row pt-5 xxx-xxx">
+                  <div class="flex flex-row pt-5 ">
                     <div class="flex absolute -ml-1.5 bg-green-800 w-3 h-3 rounded-full"></div>
                     <div class="flex justify-between w-full -mt-1 ml-5">
                       <div class="text-white flex w-44 underline">
@@ -61,7 +61,7 @@
                     </div>
                   </div>
 
-                  <div class="flex flex-row pt-5 xxx-xxx">
+                  <div class="flex flex-row pt-5 ">
                     <div class="flex absolute -ml-1.5 bg-green-800 w-3 h-3 rounded-full"></div>
                     <div class="flex justify-between w-full -mt-1 ml-5">
                       <div class="text-white flex w-44 underline">
@@ -88,10 +88,10 @@
 
                   <div class="flex flex-col">
 
-                    <div class="flex flex-row pt-2 xxx-xxx">
+                    <div class="flex flex-row pt-2 ">
                       <div class="flex absolute -ml-1.5 bg-green-800 w-3 h-3 rounded-full"></div>
                       <div class="flex -mt-1 ml-5">
-                        <div class="flex flex-none w-96 max-sm:w-32">
+                        <div class="flex flex-none w-96 max-lg:w-48 max-md:w-36 max-sm:w-32">
                           <div class="flex flex-col">
                             <div class="flex noto-serif-900 underline">November,&nbsp;&nbsp; 2022 - Present</div>
                             <div class="flex noto-serif-500 text-sm text-gray-500">Full-stack Web developer | Full-time | National Payment Certification Agency</div>
@@ -102,35 +102,35 @@
                           <article class="text-wrap">
                             <div class="noto-sans-300">
 
-                              <div class="flex xxx-xxx">
+                              <div class="flex ">
                                 <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                 <p class="ml-4">Building Single Page Applications daily using Vue.js and the Nuxt3</p>
                               </div>
-                              <div class="flex xxx-xxx">
+                              <div class="flex ">
                                 <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                 <p class="ml-4">Design and implement RESTful APIs and back-end services with Laravel</p>
                               </div>
-                              <div class="flex xxx-xxx">
+                              <div class="flex ">
                                 <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                 <p class="ml-4">Collaborate with cross-functional teams to define, design, and ship new features</p>
                               </div>
-                              <div class="flex xxx-xxx">
+                              <div class="flex ">
                                 <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                 <p class="ml-4">Participate in code reviews, ensuring high code quality and best practices</p>
                               </div>
-                              <div class="flex xxx-xxx">
+                              <div class="flex ">
                                 <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                 <p class="ml-4">Utilize Vue.js for front-end development, creating responsive, interactive user interfaces</p>
                               </div>
-                              <div class="flex xxx-xxx">
+                              <div class="flex ">
                                 <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                 <p class="ml-4">Leverage Laravel for back-end development, including database management, authentication, and API integration</p>
                               </div>
-                              <div class="flex xxx-xxx">
+                              <div class="flex ">
                                 <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                 <p class="ml-4">Troubleshoot and debug application issues, optimizing performance and scalability</p>
                               </div>
-                              <div class="flex xxx-xxx">
+                              <div class="flex ">
                                 <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                 <p class="ml-4">Implement efficient code to enhance user experience and improve application performance.</p>
                               </div>
@@ -141,10 +141,10 @@
                       </div>
                     </div>
 
-                    <div class="flex flex-row pt-10 xxx-xxx">
+                    <div class="flex flex-row pt-10 ">
                         <div class="flex absolute -ml-1.5 bg-green-800 w-3 h-3 rounded-full"></div>
                         <div class="flex -mt-1 ml-5">
-                          <div class="flex flex-none w-96 max-sm:w-32">
+                          <div class="flex flex-none w-96 max-lg:w-48 max-md:w-36 max-sm:w-32">
                             <div class="flex flex-col">
                               <div class="flex noto-serif-900 underline">April,&nbsp;&nbsp;2020 - October,&nbsp;&nbsp;2022 </div>
                               <div class="flex noto-serif-500 text-sm text-gray-500">Web developer | Full-time | Turbotech Co.,Ltd</div>
@@ -154,27 +154,27 @@
                           <div class="flex flex-initial px-5">
                             <article class="text-wrap">
                               <div class="noto-sans-300">
-                                <div class="flex xxx-xxx">
+                                <div class="flex ">
                                   <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                   <p class="ml-4">Coded websites using HTML, CSS, JavaScript and jQuery languages</p>
                                 </div>
-                                <div class="flex xxx-xxx">
+                                <div class="flex ">
                                   <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                   <p class="ml-4">Doing on back-end development using Laravel Framework to maintain website integrity</p>
                                 </div>
-                                <div class="flex xxx-xxx">
+                                <div class="flex ">
                                   <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                   <p class="ml-4">Used MySQL, PostgreSQL to work with database</p>
                                 </div>
-                                <div class="flex xxx-xxx">
+                                <div class="flex ">
                                   <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                   <p class="ml-4">Used google map API to produce application related mapping</p>
                                 </div>
-                                <div class="flex xxx-xxx">
+                                <div class="flex ">
                                   <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                   <p class="ml-4">Discussed site and app requirements with clients to produce actionable development plans</p>
                                 </div>
-                                <div class="flex xxx-xxx">
+                                <div class="flex ">
                                   <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                                   <p class="ml-4">Used Bootstrap and Tailwind for CSS framework.</p>
                                 </div>
@@ -204,19 +204,19 @@
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
-                        <div class="flex xxx-xxx">
+                        <div class="flex ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">JavaScript: Have an experiences with ES6+ features, and asynchronous programming (promises, async/await).</p>
                         </div>
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">CSS Preprocessors: Friendly use CSS preprocessors like SASS or LESS.</p>
                         </div>
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">Frontend Frameworks: Master a modern frontend framework such as Vue.js, and React.</p>
                         </div>
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">Responsive Design: Create responsive layouts using frameworks like Bootstrap or Tailwind CSS.</p>
                         </div>
@@ -233,15 +233,15 @@
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">Server-side Languages: Using backend languages such as PHP, Node.Js, Go, or Python.</p>
                         </div>
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">Frameworks: Comfortable with backend frameworks like Laravel (PHP), and Django (Python).</p>
                         </div>
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">APIs: Create and consume RESTful APIs and GraphQL.</p>
                         </div>
@@ -260,11 +260,11 @@
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">SQL Databases:  Experience with relational databases like MySQL, PostgreSQL, or SQLite.</p>
                         </div>
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">NoSQL Databases: Understand non-relational databases like MongoDB or Firebase.</p>
                         </div>
@@ -281,7 +281,7 @@
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">Git: Daily Git usage for version control, including common commands and workflows (cloning, branching, merging, pull requests).</p>
                         </div>
@@ -298,11 +298,11 @@
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">Package Managers: Get familiar with package managers like npm or Yarn.</p>
                         </div>
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">Text Editors/IDEs: Text editor or IDE such as Visual Studio Code, or PHPStorm.</p>
                         </div>
@@ -318,15 +318,15 @@
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">Servers: Understand basic server management and deployment processes.</p>
                         </div>
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">Containers: Knowledge how to build a container with Docker.</p>
                         </div>
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">CI/CD: Knowledge with deployment (CI/CD) pipelines using tools like Jenkins, GitHub Actions, or GitLab CI.</p>
                         </div>
@@ -342,11 +342,11 @@
                   <div class="flex flex-row w-full pl-10 py-3">
                     <article class="text-wrap">
                       <div class="noto-sans-300">
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">Problem-Solving: Strong problem-solving skills and logical thinking.</p>
                         </div>
-                        <div class="flex xxx-xxx ">
+                        <div class="flex  ">
                           <div class="mt-2 bg-gray-600 w-2 h-2 absolute rounded-full"></div>&nbsp;
                           <p class="ml-4">Collaboration: Work well in a team, communicate effectively, and understand the principles of agile development.</p>
                         </div>
