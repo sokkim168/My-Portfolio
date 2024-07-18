@@ -356,25 +356,6 @@
                 </div>
               </div>
 
-
-
-              <!--              <div class="flex justify-between items-center px-5 gap-5 w-full">-->
-<!--                <div class="flex">-->
-<!--                  <button class="text-2xl w-7" @click="previousSlide"><font-awesome-icon :icon="['fas', 'arrow-left']" /></button>-->
-<!--                </div>-->
-
-<!--                <template v-for="(image, index) in images" :key="index">-->
-<!--                  <div v-show="image.status" class="flex h-44 w-full justify-center items-center">-->
-<!--                    <img :src="image.url" class="rounded-2xl w-full h-44 bg-white">-->
-<!--                  </div>-->
-<!--                </template>-->
-
-<!--                <div class="flex">-->
-<!--                  <button class="text-2xl w-7" @click="nextSlide"><font-awesome-icon :icon="['fas', 'arrow-right']" /></button>-->
-<!--                </div>-->
-<!--              </div>-->
-
-
             </div>
 
           </div>
@@ -430,20 +411,7 @@
 
 <script setup>
 import { ref  } from 'vue'
-import html from '@/assets/technolgies/logo-2582748_1280.webp'
-import css from '@/assets/technolgies/cssl-logo.png'
-import javascript from '@/assets/technolgies/javascript-6.png'
-import jquery from '@/assets/technolgies/jquery.jpg'
-import bootstrap from '@/assets/technolgies/bootstrap.png'
-import tailwind from '@/assets/technolgies/tailwindcss.png'
-import vue from '@/assets/technolgies/vuejs.png'
-import node from '@/assets/technolgies/nodejs.jpg'
-import php from '@/assets/technolgies/php.svg.png'
-import laravel from '@/assets/technolgies/laravel.png'
-import mysql from '@/assets/technolgies/mysql.png'
-import postgres from '@/assets/technolgies/postgresql.png'
 
-// import mycover from '/public/IMG_4489.HEIC'
 
 
   var getYear = new Date().getFullYear();
@@ -464,46 +432,6 @@ import postgres from '@/assets/technolgies/postgresql.png'
     }
   };
   var getPeriodJob = calculatePeriod(workStart, getCurrentTime)
-
-  const images = ref([
-    {'id':6,'title':'Tailwind Css','url':tailwind,'status':true},
-    {'id':7,'title':'Vue Js','url':vue,'status':true},
-    {'id':9,'title':'PHP','url':php,'status':true},
-    {'id':10,'title':'Laravel','url':laravel,'status':true},
-    {'id':11,'title':'MySQL','url':mysql,'status':true},
-    {'id':1,'title':'Html 5','url': html,'status':false},
-    {'id':2,'title':'CSS6','url':css,'status':false},
-    {'id':3,'title':'Javascript ES6','url':javascript,'status':false},
-    {'id':8,'title':'Node Js','url':node,'status':false},
-    {'id':4,'title':'jQuery','url':jquery,'status':false},
-    {'id':5,'title':'Bootstrap','url':bootstrap,'status':false},
-    {'id':12,'title':'Postgres','url':postgres,'status':false},
-  ]);
-
-  const nextSlide = () => {
-    let getRemove = images.value.splice(0, 1)[0];
-    getRemove.status = false;
-    images.value = images.value.map(function(item,index){
-        if(index==4){
-          item.status = true
-        }
-        return {...item};
-    })
-    images.value.push(getRemove)
-  }
-
-const previousSlide = () => {
-  let getRemove = images.value.splice(images.value.length-1, 1)[0];
-  getRemove.status = true;
-  var arr = [getRemove];
-  for(var i=0; i<images.value.length; i++){
-    if(i==4){
-      images.value[i].status = false
-    }
-    arr.push(images.value[i]);
-  }
- images.value = arr;
-}
 
 
 </script>
