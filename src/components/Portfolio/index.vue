@@ -1,7 +1,7 @@
 <template>
       <div class="flex flex-col gap-2 w-full mt-16 max-sm:mt-10">
-        <div class="flex flex-row backgound-cover "  id="home">
-          <div class="flex w-full bg-gradient-to-r from-gray-900 ">
+        <div class="flex flex-row backgound-cover"  id="home">
+          <div class="flex w-full  bg-gradient-to-r from-gray-900">
             <div class="flex w-1/2 rounded-2x px-14 max-sm:px-5 items-center max-sm:justify-center">
               <div class="w-auto max-sm:mt-10 max-sm:pl-10 max-md:mt-12 max-md:mr-12 max-sm:mr-0 max-sm:mt-15 items-end justify-items-end justify-end">
                 <h1 class="flex text-7xl text-white max-sm:text-5xl">HELLO, I AM</h1>
@@ -444,7 +444,7 @@
 }
 
 .backgound-cover {
-  height: 450px;
+  height: 400px;
   background: url("/public/IMG_4489.HEIC") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
