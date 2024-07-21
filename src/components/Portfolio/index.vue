@@ -91,7 +91,7 @@
                     <div class="flex flex-row pt-2 ">
                       <div class="flex absolute -ml-1.5 bg-green-800 w-3 h-3 rounded-full"></div>
                       <div class="flex -mt-1 ml-5">
-                        <div class="flex flex-none w-96 max-lg:w-48 max-md:w-36 max-sm:w-32">
+                        <div class="flex flex-none w-96 max-lg:w-48 max-md:w-36 max-sm:w-24">
                           <div class="flex flex-col">
                             <div class="flex noto-serif-900 underline">November,&nbsp;&nbsp; 2022 - Present</div>
                             <div class="flex noto-serif-500 text-sm text-gray-500">Full-stack Web developer | Full-time | National Payment Certification Agency</div>
@@ -144,7 +144,7 @@
                     <div class="flex flex-row pt-10 ">
                         <div class="flex absolute -ml-1.5 bg-green-800 w-3 h-3 rounded-full"></div>
                         <div class="flex -mt-1 ml-5">
-                          <div class="flex flex-none w-96 max-lg:w-48 max-md:w-36 max-sm:w-32">
+                          <div class="flex flex-none w-96 max-lg:w-48 max-md:w-36 max-sm:w-24">
                             <div class="flex flex-col">
                               <div class="flex noto-serif-900 underline">April,&nbsp;&nbsp;2020 - October,&nbsp;&nbsp;2022 </div>
                               <div class="flex noto-serif-500 text-sm text-gray-500">Web developer | Full-time | Turbotech Co.,Ltd</div>
@@ -384,7 +384,7 @@
                     </div>
                 </div>
 
-                <div class="flex w-full justify-end items-center max-sm:justify-start gap-4 noto-sans-300">
+                <div class="flex w-full justify-end items-center max-sm:justify-center gap-4 noto-sans-300">
                   <a class="flex flex-col" target="_blank" href="//www.linkedin.com/in/sokkim-roth-466795218">
                     <font-awesome-icon class="fa-xl" title="LinkedIn" :icon="['fab', 'linkedin']" />
                     <p class="text-2xs py-2">LinkedIn</p>
