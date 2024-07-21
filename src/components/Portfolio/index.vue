@@ -28,9 +28,9 @@
                     Hi, I am Sokkim. I'm {{myAge}} years old and living in Phnom Penh, Cambodia.
                     I am a Full-stack Web Developer.
                     <br><br>Currently, I'm working at the National Payment Certification Agency, which is under the Ministry of Economy and Finance in Cambodia.
-                    <br><br>I have been working there since November, 2022. It has been over {{getPeriodJob}} now. I also graduated with a bachelor's degree in Computer Science from the Royal University of Phnom Penh.
+                    <br><br>I have been working there since November, 2022, for over {{getPeriodJob}} now.
                     <br><br>I am responsible for developing web applications for the institution and maintaining existing systems.
-                    <br><br>There are five systems that I have contributed to.
+                    <br><br>I am also a graduate with a bachelor's degree in Computer Science from the Royal University of Phnom Penh.
                   </p>
                 </article>
               </div>
@@ -53,7 +53,7 @@
                     <div class="flex absolute -ml-1.5 bg-green-800 w-3 h-3 rounded-full"></div>
                     <div class="flex justify-between w-full -mt-1 ml-5">
                       <div class="text-white flex w-44 underline">
-                        <p class="noto-sans-300">2017-2020</p>
+                        <p class="noto-sans-300">August 2020</p>
                       </div>
                       <div class="w-full justify-start items-center noto-sans-300">
                         <p>Graduated a bachelor's degree in Computer Science from the Royal University of Phnom Penh </p>
@@ -65,10 +65,10 @@
                     <div class="flex absolute -ml-1.5 bg-green-800 w-3 h-3 rounded-full"></div>
                     <div class="flex justify-between w-full -mt-1 ml-5">
                       <div class="text-white flex w-44 underline">
-                        <p class="noto-sans-300">2013-2016</p>
+                        <p class="noto-sans-300">September 2016</p>
                       </div>
                       <div class="w-full justify-start items-center noto-sans-300">
-                        <p>Went high school diploma at Steng Throng high school, Kampong Cham province</p>
+                        <p>Passed the high school diploma exam.</p>
                       </div>
                     </div>
                   </div>
@@ -395,7 +395,7 @@
                   </a>
                   <a class="flex flex-col" target="_blank" href="//https://x.com/SokkimRoth">
                     <font-awesome-icon class="fa-xl" title="X" :icon="['fab', 'x-twitter']" />
-                    <p class="text-2xs py-2">X-Twitter</p>
+                    <p class="text-2xs py-2 text-center">X</p>
                   </a>
                 </div>
 
